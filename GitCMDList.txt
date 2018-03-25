@@ -28,6 +28,10 @@ git log --pretty=oneline
 
 
 添加远程仓库：git remote add origin git@github.com:yourname/yourgit.git
+
+查看用户：git remote -v
+
+
 推送本地内容到远程仓库：
 git push -u origin master
 git push origin masters
