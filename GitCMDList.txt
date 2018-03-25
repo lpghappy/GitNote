@@ -1,0 +1,40 @@
+创建版本库:
+创建目录：mkdir xxx
+进入目录：cd xxx
+查看路径：pwd
+初始化：git init
+
+把一个文件放到仓库
+添加文件：git add test.txt
+提交文件：git commit -m "解释内容"
+
+
+查看状态：git status
+
+查看差异：git diff
+
+查看日志：
+查看提交历史：git log
+git log --pretty=oneline
+查看命令历史：git reflog
+
+
+版本回退：
+回退上一版本：git reset --hard HEAD^
+回退前N版本：git reset --hard HEAD~N
+回退制定版本： git reset --hard xxxxx(指定版本号前若干个字符)
+
+查看文件内容：cat test.txt
+
+
+添加远程仓库：git remote add origin git@github.com:yourname/yourgit.git
+推送本地内容到远程仓库：
+git push -u origin master
+git push origin masters
+
+远程仓库推送到本地：git pull --rebase origin master
+
+远程库克隆到本地库：git clone git@github.com:yourname/yourgit.git
+
+
+
