@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pycharm中使用GitHub - Python自动化运维之路 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=-hy83QNg62d4qYibixJzxMJkbf1P9fTBlqv7SK5zVL01"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip.css?v=xPXJVC4GCITs1yYYgSeLkcicCxapqseaPVQLFGMO1wc1"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/297364.css?v=qNAnWKxXXncXMGcNE22jQ3tkOHs%3d"/>
+<link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip-mobile.css?v=6NcJHqsIyaE4w19VtgFvCFahrnr2rYCTRRTdxlMDhhQ1"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/xiaozhiqi/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/xiaozhiqi/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/xiaozhiqi/wlwmanifest.xml"/>
+<script src="//common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+<script type="text/javascript">var currentBlogApp = 'xiaozhiqi', cb_enable_mathjax=false;var isLogined=true;</script>
+<script src="/bundles/blog-common.js?v=O-NTEmnhjbG7lSYLc3yeqkrVxfMJyY9iXf4xyjlKikw1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/xiaozhiqi/"><img id="blogLogo" src="/Skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/xiaozhiqi/">Python自动化运维之路</a></h1>
+<h2></h2>
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+<li><a id="blog_nav_myhome" class="menu" href="http://www.cnblogs.com/xiaozhiqi/">首页</a></li>
+<li><a id="blog_nav_newpost" class="menu" rel="nofollow" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="blog_nav_contact" class="menu" rel="nofollow" href="https://msg.cnblogs.com/send/Python%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E4%B9%8B%E8%B7%AF">联系</a></li>
+<li><a id="blog_nav_rss" class="menu" href="http://www.cnblogs.com/xiaozhiqi/rss">订阅</a>
+<!--<a id="blog_nav_rss_image" class="aHeaderXML" href="http://www.cnblogs.com/xiaozhiqi/rss"><img src="//www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="blog_nav_admin" class="menu" rel="nofollow" href="https://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+			
+			<div id="blog_stats">
+<span id="stats_post_count">随笔 - 40&nbsp; </span>
+<span id="stats_article_count">文章 - 8&nbsp; </span>
+<span id="stats-comment_count">评论 - 10</span>
+</div>
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class = "post">
+		<h1 class = "postTitle">
+			<a id="cb_post_title_url" class="postTitle2" href="http://www.cnblogs.com/xiaozhiqi/p/5955769.html">Pycharm中使用GitHub</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			<div id="cnblogs_post_body" class="blogpost-body"><p class="postTitle">Pycharm是当前进行python开发，尤其是Django开发最好的IDE。GitHub是程序员的圣地，几乎人人都在用。</p>
+<div class="postBody">
+<div id="cnblogs_post_body">
+<p>本文假设你对pycharm和github都有一定的了解，并且希望在pycharm下直接使用github的版本控制功能。</p>
+<p>废话不多说，下面图文详解，全是干货。windows和linux一样配置的，有些路径不一样而已</p>
+<p>环境：pycharm 2016，git 2.8，github账户，windows</p>
+<h3>一、配置Pycharm</h3>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013095418687-1009633201.png" alt="">　　</p>
+<p>不管你用哪种方法，进入pycharm的配置菜单。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013095450125-279464470.png" alt="" width="791" height="522"></p>
+<p>选择上图中的version control。（这里插一句，不管有多难，在程序员的世界，请不要汉化，坚持使用英文原版）</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013095700812-140112567.png" alt="" width="794" height="525"></p>
+<p>按照图中所示，配置好github相关内容。没有github的同学，建议你自己前往官网注册，而不要通过它的快速注册通道。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013095839796-466960860.png" alt="" width="795" height="524"></p>
+<p>这一步很关键，很多同学配置完github就直接开始使用了，结果却是各种错误。</p>
+<p>这是因为，除了配置github外还要配置git。github的配置只是告诉了pycharm你的账号和密码，</p>
+<p>pycharm还不知道如何进行版本控制操作，它底层还是需要调用git的功能的。</p>
+<p>因此，请提前下载并安装git程序到你的本机。&nbsp;</p>
+<h3>二、建立远程仓库并提交代码</h3>
+<p>配置完了，就可以正常使用了，点击顶部菜单栏的VCS选项。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013100520359-117645667.png" alt="" width="800" height="312"></p>
+<p>在import into version control 下有一个在github中共享项目的栏目了，点击进去。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013100620375-2112032430.png" alt="" width="801" height="533"></p>
+<p>按照图中的注释，建立一个新的仓库，点击share按钮。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013100700578-366487554.png" alt="" width="800" height="753"></p>
+<p>在这里，可以选择你要上传的文件，一般是直接全部上传，当然也可以取消那些没必要的文件。输入提交信息，</p>
+<p>点击OK确认。等待片刻，根据你的网络情况和文件大小，pycharm将文件传输给github，成功后会弹出小的提示</p>
+<p>消息，这就大功告成了。很简单吧？！&nbsp;</p>
+<h3>三、在github中查看上传的新仓库</h3>
+<p>进入github官网，登录自己的账号：</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013101024453-1401953272.png" alt="" width="802" height="449"></p>
+<p>图中红框是我们刚才通过pycharm建立的新仓库，点击进去，可以看到如下图，整个pycharm项目的所有文件都在里面：</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013101309625-1649136903.png" alt="" width="786" height="487"></p>
+<h3>四、使用pycharm克隆github仓库</h3>
+<p>前面说的是上传，要下载呢？在VCS菜单中：</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013101516937-1487673831.png" alt=""></p>
+<p>根据上图红框选择。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013101605171-1118018907.png" alt="" width="795" height="481"></p>
+<p>输入密码。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013101651968-529190242.png" alt="" width="801" height="407"></p>
+<p>pycharm会登录你的github账户，读取你的仓库信息，你可以从下拉框中选择仓库，也可以在directory name框内</p>
+<p>直接输入仓库名。点击clone，pycharm就自动下载仓库内容了。&nbsp;</p>
+<h3>五、在pycharm内进行git的相关操作</h3>
+<p>以上只是commit和clone的操作，具体的push，add，status等git常用操作都在CVS菜单里可以找得到，相信具有</p>
+<p>git基础的同学一看就会，这里就不介绍了。</p>
+<p><img src="https://images2015.cnblogs.com/blog/948404/201610/948404-20161013101938125-1572558074.png" alt="" width="808" height="877"></p>
+<p>&nbsp;你看，在pycharm中使用github进行版本控制就是这么简单！</p>
+<p>觉得不错的话，就点赞支持一下吧！</p>
+</div>
+</div></div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="BlogPostCategory"></div>
+<div id="EntryTag"></div>
+<div id="blog_post_info">
+</div>
+<div class="clear"></div>
+<div id="post_next_prev"></div>
+</div>
+
+
+		</div>
+		<div class = "postDesc">posted @ <span id="post-date">2016-10-13 11:19</span> <a href='http://www.cnblogs.com/xiaozhiqi/'>Python自动化运维之路</a> 阅读(<span id="post_view_count">...</span>) 评论(<span id="post_comment_count">...</span>)  <a href ="https://i.cnblogs.com/EditPosts.aspx?postid=5955769" rel="nofollow">编辑</a> <a href="#" onclick="AddToWz(5955769);return false;">收藏</a></div>
+	</div>
+	<script type="text/javascript">var allowComments=true,cb_blogId=297364,cb_entryId=5955769,cb_blogApp=currentBlogApp,cb_blogUserGuid='98544d9a-ee57-e611-9fc1-ac853d9f53cc',cb_entryCreatedDate='2016/10/13 11:19:00';loadViewCount(cb_entryId);var cb_postType=1;</script>
+	
+</div><!--end: topics 文章、评论容器-->
+</div><a name="!comments"></a><div id="blog-comments-placeholder"></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id='comment_form' class='commentform'>
+<a name='commentform'></a>
+<div id='divCommentShow'></div>
+<div id='comment_nav'><span id='span_refresh_tips'></span><a href='javascript:void(0);' onclick='return RefreshCommentList();' id='lnk_RefreshComments' runat='server' clientidmode='Static'>刷新评论</a><a href='#' onclick='return RefreshPage();'>刷新页面</a><a href='#top'>返回顶部</a></div>
+<div id='comment_form_container'></div>
+<div class='ad_text_commentbox' id='ad_text_under_commentbox'></div>
+<div id='ad_t2'></div>
+<div id='opt_under_post'></div>
+<div id='cnblogs_c1' class='c_ad_block'></div>
+<div id='under_post_news'></div>
+<div id='cnblogs_c2' class='c_ad_block'></div>
+<div id='under_post_kb'></div>
+<div id='HistoryToday' class='c_ad_block'></div>
+<script type='text/javascript'>
+    fixPostBody();
+    setTimeout(function () { incrementViewCount(cb_entryId); }, 50);
+    deliverAdT2();
+    deliverAdC1();
+    deliverAdC2();    
+    loadNewsAndKb();
+    loadBlogSignature();
+    LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+    GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+    loadOptUnderPost();
+    GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);   
+</script>
+</div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		
+<!--done-->
+Copyright &copy;2018 Python自动化运维之路
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+</body>
+</html>
