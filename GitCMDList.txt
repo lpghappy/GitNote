@@ -40,5 +40,7 @@ git push origin master
 
 远程库克隆到本地库：git clone git@github.com:yourname/yourgit.git
 
+haha
+
 
 
