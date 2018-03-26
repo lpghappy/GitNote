@@ -6,6 +6,7 @@
 
 把一个文件放到仓库
 添加文件：git add test.txt
+添加项目：git add.
 提交文件：git commit -m "解释内容"
 
 
