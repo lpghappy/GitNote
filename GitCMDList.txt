@@ -28,7 +28,7 @@ git log --pretty=oneline
 
 
 添加远程仓库：git remote add origin git@github.com:yourname/yourgit.git
-
+删除远程库：git remote rm origin
 查看用户：git remote -v
 
 
